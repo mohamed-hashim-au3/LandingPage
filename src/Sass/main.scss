@@ -1,0 +1,10 @@
+//abstracts
+@import "./abstracts/base";
+@import "./abstracts/variables";
+//Pages
+@import "../Pages/LandingPage/landingpage";
+
+//components
+@import "../components/SideNav/sidenav";
+@import "../components//Button/buttons";
+@import "../components/Card/cards";
