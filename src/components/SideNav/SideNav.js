@@ -6,6 +6,7 @@ import { ReactComponent as Question } from "../../assets/question.svg";
 import { ReactComponent as Heart } from "../../assets/heart.svg";
 import { ReactComponent as Mail } from "../../assets/mail.svg";
 import { ReactComponent as Exit } from "../../assets/exit.svg";
+
 const SideNav = () => {
   return (
     <>
