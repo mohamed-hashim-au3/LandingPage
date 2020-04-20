@@ -15,7 +15,6 @@ import { ReactComponent as Mail } from "../../assets/mail.svg";
 import { useMediaQuery } from "react-responsive";
 import { ReactComponent as Farrow } from "../../assets/filledArrow.svg";
 import Buttons from "../../components/Button/Buttons";
-
 import Cards from "../../components/Card/Cards";
 const LandingPage = () => {
   const isMobile = useMediaQuery({
@@ -33,10 +32,9 @@ const LandingPage = () => {
           <div className="fixed-div">
             <section className="searchbar-wrapper">
               <div className="searchbar-container">
-                <div className="searchbar-icon mr-2">
-                  <Search />
-                </div>
-                <div className="searchbar-input">
+                <Search />
+
+                <div className="searchbar-input ml-sm-3">
                   <input type="text" placeholder="Search for symptoms.." />
                 </div>
               </div>
