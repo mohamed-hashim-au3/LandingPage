@@ -79,10 +79,17 @@
       }
     }
     &::-webkit-scrollbar {
-      width: 3px;
+      width: 5px;
+
+      cursor: pointer;
+    }
+    &::-webkit-scrollbar:hover {
+      width: 8px;
     }
     &::-webkit-scrollbar-thumb {
-      background: #888;
+      background: $color-primary1;
+      cursor: pointer;
+      border-radius: 10px;
     }
   }
 }
@@ -138,13 +145,14 @@ https://flickity.metafizzy.co
 
 .flickity-button {
   position: absolute;
-  background: $color-primary2;
+  background: $color-primary1;
   border: none;
-  color: #333;
+  color: $color-primary2;
 }
 
 .flickity-button:hover {
-  background: #ffffff;
+  background: $color-secondary1;
+
   cursor: pointer;
 }
 
@@ -180,10 +188,10 @@ https://flickity.metafizzy.co
 }
 
 .flickity-prev-next-button.previous {
-  left: 10px;
+  left: -30px;
 }
 .flickity-prev-next-button.next {
-  right: 10px;
+  right: -30px;
 }
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
